@@ -1,0 +1,45 @@
+[2024-04-24T09:34:21.087+0800] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-24T09:34:21.214+0800] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 3107_project.clean_linkedin_jobs__3 manual__2024-04-23T17:53:46.323504+00:00 [queued]>
+[2024-04-24T09:34:21.248+0800] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 3107_project.clean_linkedin_jobs__3 manual__2024-04-23T17:53:46.323504+00:00 [queued]>
+[2024-04-24T09:34:21.251+0800] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-04-24T09:34:21.342+0800] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): clean_linkedin_jobs__3> on 2024-04-23 17:53:46.323504+00:00
+[2024-04-24T09:34:21.355+0800] {standard_task_runner.py:63} INFO - Started process 1071305 to run task
+[2024-04-24T09:34:21.362+0800] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', '3107_project', 'clean_linkedin_jobs__3', 'manual__2024-04-23T17:53:46.323504+00:00', '--job-id', '409', '--raw', '--subdir', 'DAGS_FOLDER/project_main_CCA23_4.py', '--cfg-path', '/tmp/tmp6ui_m1op']
+[2024-04-24T09:34:21.368+0800] {standard_task_runner.py:91} INFO - Job 409: Subtask clean_linkedin_jobs__3
+[2024-04-24T09:34:21.521+0800] {task_command.py:426} INFO - Running <TaskInstance: 3107_project.clean_linkedin_jobs__3 manual__2024-04-23T17:53:46.323504+00:00 [running]> on host DESKTOP-COSTHAS.
+[2024-04-24T09:34:21.846+0800] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='3107_project' AIRFLOW_CTX_TASK_ID='clean_linkedin_jobs__3' AIRFLOW_CTX_EXECUTION_DATE='2024-04-23T17:53:46.323504+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-23T17:53:46.323504+00:00'
+[2024-04-24T09:34:21.849+0800] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-24T09:34:21.920+0800] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-24T09:34:21.923+0800] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/.venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/.venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/.venv/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/.venv/lib/python3.8/site-packages/airflow/decorators/base.py", line 265, in execute
+    return_value = super().execute(context)
+  File "/mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/.venv/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/.venv/lib/python3.8/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/.venv/lib/python3.8/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/project_main_CCA23_4.py", line 178, in clean_linkedin_jobs
+    data['Job_txt'] = data['Job_txt'].apply(lambda x : x.split('Report this job')[1].replace("â€™", "'"))
+  File "/mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/.venv/lib/python3.8/site-packages/pandas/core/series.py", line 4630, in apply
+    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()
+  File "/mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/.venv/lib/python3.8/site-packages/pandas/core/apply.py", line 1025, in apply
+    return self.apply_standard()
+  File "/mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/.venv/lib/python3.8/site-packages/pandas/core/apply.py", line 1076, in apply_standard
+    mapped = lib.map_infer(
+  File "pandas/_libs/lib.pyx", line 2834, in pandas._libs.lib.map_infer
+  File "/mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/project_main_CCA23_4.py", line 178, in <lambda>
+    data['Job_txt'] = data['Job_txt'].apply(lambda x : x.split('Report this job')[1].replace("â€™", "'"))
+AttributeError: 'float' object has no attribute 'split'
+[2024-04-24T09:34:22.001+0800] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=3107_project, task_id=clean_linkedin_jobs__3, execution_date=20240423T175346, start_date=20240424T013421, end_date=20240424T013422
+[2024-04-24T09:34:22.058+0800] {standard_task_runner.py:110} ERROR - Failed to execute job 409 for task clean_linkedin_jobs__3 ('float' object has no attribute 'split'; 1071305)
+[2024-04-24T09:34:22.093+0800] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-24T09:34:22.160+0800] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-24T09:34:22.164+0800] {local_task_job_runner.py:222} INFO - ::endgroup::

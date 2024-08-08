@@ -1,0 +1,17 @@
+[2024-04-24T09:09:57.986+0800] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-24T09:09:58.060+0800] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 3107_project.extract_linkedin_jobs_3 manual__2024-04-23T17:53:46.323504+00:00 [queued]>
+[2024-04-24T09:09:58.075+0800] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 3107_project.extract_linkedin_jobs_3 manual__2024-04-23T17:53:46.323504+00:00 [queued]>
+[2024-04-24T09:09:58.076+0800] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-04-24T09:09:58.116+0800] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): extract_linkedin_jobs_3> on 2024-04-23 17:53:46.323504+00:00
+[2024-04-24T09:09:58.121+0800] {standard_task_runner.py:63} INFO - Started process 1058270 to run task
+[2024-04-24T09:09:58.124+0800] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', '3107_project', 'extract_linkedin_jobs_3', 'manual__2024-04-23T17:53:46.323504+00:00', '--job-id', '397', '--raw', '--subdir', 'DAGS_FOLDER/project_main_CCA23_4.py', '--cfg-path', '/tmp/tmptn3pi923']
+[2024-04-24T09:09:58.125+0800] {standard_task_runner.py:91} INFO - Job 397: Subtask extract_linkedin_jobs_3
+[2024-04-24T09:09:58.206+0800] {task_command.py:426} INFO - Running <TaskInstance: 3107_project.extract_linkedin_jobs_3 manual__2024-04-23T17:53:46.323504+00:00 [running]> on host DESKTOP-COSTHAS.
+[2024-04-24T09:09:58.378+0800] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='3107_project' AIRFLOW_CTX_TASK_ID='extract_linkedin_jobs_3' AIRFLOW_CTX_EXECUTION_DATE='2024-04-23T17:53:46.323504+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-23T17:53:46.323504+00:00'
+[2024-04-24T09:09:58.380+0800] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-24T09:09:58.381+0800] {python.py:237} INFO - Done. Returned value was: LinkedIn_WebScraping/dataengineer_scraped.csv
+[2024-04-24T09:09:58.382+0800] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-24T09:09:58.436+0800] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=3107_project, task_id=extract_linkedin_jobs_3, execution_date=20240423T175346, start_date=20240424T010958, end_date=20240424T010958
+[2024-04-24T09:09:58.505+0800] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-04-24T09:09:58.561+0800] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-04-24T09:09:58.579+0800] {local_task_job_runner.py:222} INFO - ::endgroup::

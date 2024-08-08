@@ -1,0 +1,17 @@
+[2024-04-24T09:56:17.547+0800] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-24T09:56:17.747+0800] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 3107_project.rename_and_filter_columns__2 manual__2024-04-24T01:38:35.088414+00:00 [queued]>
+[2024-04-24T09:56:17.789+0800] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 3107_project.rename_and_filter_columns__2 manual__2024-04-24T01:38:35.088414+00:00 [queued]>
+[2024-04-24T09:56:17.792+0800] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-04-24T09:56:17.878+0800] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): rename_and_filter_columns__2> on 2024-04-24 01:38:35.088414+00:00
+[2024-04-24T09:56:17.890+0800] {standard_task_runner.py:63} INFO - Started process 1083311 to run task
+[2024-04-24T09:56:17.897+0800] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', '3107_project', 'rename_and_filter_columns__2', 'manual__2024-04-24T01:38:35.088414+00:00', '--job-id', '443', '--raw', '--subdir', 'DAGS_FOLDER/project_main_CCA23_4.py', '--cfg-path', '/tmp/tmpdyv_ss0m']
+[2024-04-24T09:56:17.902+0800] {standard_task_runner.py:91} INFO - Job 443: Subtask rename_and_filter_columns__2
+[2024-04-24T09:56:18.115+0800] {task_command.py:426} INFO - Running <TaskInstance: 3107_project.rename_and_filter_columns__2 manual__2024-04-24T01:38:35.088414+00:00 [running]> on host DESKTOP-COSTHAS.
+[2024-04-24T09:56:18.470+0800] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='3107_project' AIRFLOW_CTX_TASK_ID='rename_and_filter_columns__2' AIRFLOW_CTX_EXECUTION_DATE='2024-04-24T01:38:35.088414+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-24T01:38:35.088414+00:00'
+[2024-04-24T09:56:18.473+0800] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-24T09:56:18.559+0800] {python.py:237} INFO - Done. Returned value was: new_jobstreet_jobs_modified.csv
+[2024-04-24T09:56:18.563+0800] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-24T09:56:18.687+0800] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=3107_project, task_id=rename_and_filter_columns__2, execution_date=20240424T013835, start_date=20240424T015617, end_date=20240424T015618
+[2024-04-24T09:56:18.786+0800] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-04-24T09:56:18.843+0800] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-24T09:56:18.847+0800] {local_task_job_runner.py:222} INFO - ::endgroup::

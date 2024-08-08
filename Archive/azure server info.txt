@@ -1,0 +1,22 @@
+azure server info:
+
+server admin: is3107
+password: IS31O7Project (The 0 is o instead)
+
+https://www.canva.com/design/DAGCZ_wj6j8/045SnkFOUS1hgl5z3B5lLQ/edit?utm_content=DAGCZ_wj6j8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+https://nusu.sharepoint.com/:b:/r/teams/PHStudentLeadersAY2324-PCT8ProposalsandClaims/Shared%20Documents/PCT8%20Proposals%20and%20Claims/PCT%208%20SL%20Bonding/Cover%20Note%20-%20PCT%208%20(Social%20Cluster)%20SL%20Bonding.pdf?csf=1&web=1&e=r5KldM
+
+https://nusu.sharepoint.com/:b:/r/teams/PHStudentLeadersAY2324-PCT8ProposalsandClaims/Shared%20Documents/PCT8%20Proposals%20and%20Claims/PCT%208%20SL%20Bonding/Proposal%20-%20PCT%208%20(Social-PCT)%20SL%20Bonding.pdf?csf=1&web=1&e=CYDzeT
+
+https://nusu.sharepoint.com/:b:/r/teams/PHStudentLeadersAY2324-PCT8ProposalsandClaims/Shared%20Documents/PCT8%20Proposals%20and%20Claims/PCT%208%20SL%20Bonding/Proposal%20-%20PCT%208%20(Social-PCT)%20SL%20Bonding.pdf?csf=1&web=1&e=jq0fAL
+
+jdbc:sql:AuthScheme=Password;Server=is3107jobs.database.windows.net;Database=is3107JobsDB;User=is3107;Password=IS31O7Project;
+
+sudo apt-get install python3.9-venv
+
+postgres details 
+resource group - is3107Database
+servername - is3107
+username - is3107Project
+password - JobsDBProject3107

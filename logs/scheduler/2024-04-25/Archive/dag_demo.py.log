@@ -1,0 +1,70 @@
+[2024-04-25T11:52:39.148+0800] {processor.py:161} INFO - Started process (PID=1929328) to work on /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T11:52:39.152+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py for tasks to queue
+[2024-04-25T11:52:39.156+0800] {logging_mixin.py:188} INFO - [2024-04-25T11:52:39.154+0800] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T11:52:39.194+0800] {processor.py:840} INFO - DAG(s) 'ecommerce_etl' retrieved from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T11:52:40.646+0800] {logging_mixin.py:188} INFO - [2024-04-25T11:52:40.645+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-25T11:52:40.670+0800] {logging_mixin.py:188} INFO - [2024-04-25T11:52:40.668+0800] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_etl to None, run_after=None
+[2024-04-25T11:52:40.808+0800] {processor.py:183} INFO - Processing /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py took 1.683 seconds
+[2024-04-25T11:55:45.377+0800] {processor.py:161} INFO - Started process (PID=1931102) to work on /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T11:55:45.379+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py for tasks to queue
+[2024-04-25T11:55:45.382+0800] {logging_mixin.py:188} INFO - [2024-04-25T11:55:45.381+0800] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T11:55:45.404+0800] {processor.py:840} INFO - DAG(s) 'ecommerce_etl' retrieved from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T11:55:45.438+0800] {logging_mixin.py:188} INFO - [2024-04-25T11:55:45.437+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-25T11:55:45.458+0800] {logging_mixin.py:188} INFO - [2024-04-25T11:55:45.456+0800] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_etl to None, run_after=None
+[2024-04-25T11:55:45.538+0800] {processor.py:183} INFO - Processing /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py took 0.175 seconds
+[2024-04-25T11:57:54.770+0800] {processor.py:161} INFO - Started process (PID=1932327) to work on /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T11:57:54.772+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py for tasks to queue
+[2024-04-25T11:57:54.775+0800] {logging_mixin.py:188} INFO - [2024-04-25T11:57:54.774+0800] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T11:57:54.792+0800] {processor.py:840} INFO - DAG(s) 'ecommerce_etl' retrieved from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T11:57:54.816+0800] {logging_mixin.py:188} INFO - [2024-04-25T11:57:54.815+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-25T11:57:54.830+0800] {logging_mixin.py:188} INFO - [2024-04-25T11:57:54.829+0800] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_etl to None, run_after=None
+[2024-04-25T11:57:54.888+0800] {processor.py:183} INFO - Processing /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py took 0.129 seconds
+[2024-04-25T12:00:15.897+0800] {processor.py:161} INFO - Started process (PID=1933701) to work on /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:00:15.898+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py for tasks to queue
+[2024-04-25T12:00:15.900+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:00:15.899+0800] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:00:15.918+0800] {processor.py:840} INFO - DAG(s) 'ecommerce_etl' retrieved from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:00:15.945+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:00:15.944+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-25T12:00:15.962+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:00:15.961+0800] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_etl to None, run_after=None
+[2024-04-25T12:00:16.031+0800] {processor.py:183} INFO - Processing /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py took 0.146 seconds
+[2024-04-25T12:02:46.518+0800] {processor.py:161} INFO - Started process (PID=1935144) to work on /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:02:46.520+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py for tasks to queue
+[2024-04-25T12:02:46.522+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:02:46.521+0800] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:02:46.543+0800] {processor.py:840} INFO - DAG(s) 'ecommerce_etl' retrieved from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:02:46.576+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:02:46.575+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-25T12:02:46.593+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:02:46.593+0800] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_etl to None, run_after=None
+[2024-04-25T12:02:46.683+0800] {processor.py:183} INFO - Processing /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py took 0.179 seconds
+[2024-04-25T12:05:08.936+0800] {processor.py:161} INFO - Started process (PID=1936495) to work on /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:05:08.938+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py for tasks to queue
+[2024-04-25T12:05:08.940+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:05:08.939+0800] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:05:08.959+0800] {processor.py:840} INFO - DAG(s) 'ecommerce_etl' retrieved from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:05:08.990+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:05:08.989+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-25T12:05:09.008+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:05:09.007+0800] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_etl to None, run_after=None
+[2024-04-25T12:05:09.114+0800] {processor.py:183} INFO - Processing /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py took 0.191 seconds
+[2024-04-25T12:07:14.849+0800] {processor.py:161} INFO - Started process (PID=1937728) to work on /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:07:14.851+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py for tasks to queue
+[2024-04-25T12:07:14.854+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:07:14.853+0800] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:07:14.872+0800] {processor.py:840} INFO - DAG(s) 'ecommerce_etl' retrieved from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:07:14.898+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:07:14.897+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-25T12:07:14.911+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:07:14.911+0800] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_etl to None, run_after=None
+[2024-04-25T12:07:14.978+0800] {processor.py:183} INFO - Processing /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py took 0.142 seconds
+[2024-04-25T12:09:12.755+0800] {processor.py:161} INFO - Started process (PID=1938882) to work on /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:09:12.757+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py for tasks to queue
+[2024-04-25T12:09:12.760+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:09:12.759+0800] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:09:12.777+0800] {processor.py:840} INFO - DAG(s) 'ecommerce_etl' retrieved from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:09:12.811+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:09:12.810+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-25T12:09:12.827+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:09:12.826+0800] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_etl to None, run_after=None
+[2024-04-25T12:09:12.890+0800] {processor.py:183} INFO - Processing /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py took 0.145 seconds
+[2024-04-25T12:11:45.394+0800] {processor.py:161} INFO - Started process (PID=1940348) to work on /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:11:45.396+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py for tasks to queue
+[2024-04-25T12:11:45.398+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:11:45.397+0800] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:11:45.416+0800] {processor.py:840} INFO - DAG(s) 'ecommerce_etl' retrieved from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:11:45.444+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:11:45.443+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-25T12:11:45.459+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:11:45.458+0800] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_etl to None, run_after=None
+[2024-04-25T12:11:45.538+0800] {processor.py:183} INFO - Processing /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py took 0.154 seconds
+[2024-04-25T12:14:02.607+0800] {processor.py:161} INFO - Started process (PID=1941659) to work on /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:14:02.611+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py for tasks to queue
+[2024-04-25T12:14:02.614+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:14:02.613+0800] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:14:02.645+0800] {processor.py:840} INFO - DAG(s) 'ecommerce_etl' retrieved from /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py
+[2024-04-25T12:14:02.697+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:14:02.695+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-25T12:14:02.725+0800] {logging_mixin.py:188} INFO - [2024-04-25T12:14:02.723+0800] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_etl to None, run_after=None
+[2024-04-25T12:14:02.836+0800] {processor.py:183} INFO - Processing /mnt/c/Users/Jason/Desktop/IS3107/is3107_DataEngineering/dags/Archive/dag_demo.py took 0.248 seconds
